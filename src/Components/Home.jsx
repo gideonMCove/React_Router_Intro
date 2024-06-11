@@ -1,2 +1,2 @@
-const Home = () => {return <h2> I am Home</h2>}
+const Home = ({user}) => {return <h2> Welcome {user}</h2>}
 export default Home
